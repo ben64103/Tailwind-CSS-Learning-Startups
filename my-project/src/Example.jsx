@@ -3,7 +3,7 @@ import React from 'react';
 const Example = () => {
   return (
     <>
-      <div className='flex flex-col items-center justify-between mx-5 rounded-md overflow-hidden bg-white ring-2 ring-gray-800/10 mt-7'>
+      <div className='flex md:flex-row flex-col items-center justify-between mx-5 rounded-md overflow-hidden bg-white ring-2 ring-gray-800/10 mt-7'>
         <div className='p-5 pt-10'>
           <img
             className='w-16 h-16'
@@ -44,7 +44,7 @@ const Example = () => {
           </div>
         </div>
 
-       <div className='h-96 sm:h-auto flex items-center overflow-hidden'>
+       <div className='h-96 sm:h-[600px] flex items-center overflow-hidden'>
        <img
           className='w-full bg-cover bg-center mt-10'
           src='https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80'
@@ -52,7 +52,7 @@ const Example = () => {
         />
        </div>
       </div>
-      <div className='p-5'></div>
+    
     </>
   );
 };
